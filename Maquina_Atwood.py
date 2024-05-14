@@ -55,7 +55,7 @@ while True:
     elif opc == '1':
         print("\n")
         print("**            Maquina de Atwood            **") 
-        print("*Mediante el ingreso del peso de dos Objetes*")
+        print("*Mediante el ingreso del peso de dos Objetos*")
         print("*Se hallará la aceleracion y la tension en el Sistema*")                
         maquinaAtwood()      
         nuevaOperacion = errorOperacion()     
