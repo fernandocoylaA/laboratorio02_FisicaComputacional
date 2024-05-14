@@ -19,11 +19,12 @@ def fuerzaMovil():
         resultado = round(abs(masa * ((velFin - velIni) / tiempo)) , 4)  
         print("La fuerza que describe el movil es: "+str(resultado)+" N")       
         #grafica
-        plt.plot([0,tiempo],[velIni,velFin])
-        plt.title('Cambio de velocidad')
-        plt.xlabel('Tiempo(s)')
-        plt.ylabel('Velocidad(m/s)')
-        plt.show()       
+        #se crea el grafico , ejex-> representacion del tiempo , velocidades en el eje y 
+        plt.plot([0,tiempo],[velIni,velFin]) 
+        plt.title('Cambio de velocidad')#titulo de la grafica
+        plt.xlabel('Tiempo(s)') #etiqueta ejex
+        plt.ylabel('Velocidad(m/s)') #etiqueta ejeY
+        plt.show()#mostrar grafica.
         
 
 # Menu de Opciones
